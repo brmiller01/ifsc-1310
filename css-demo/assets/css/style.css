@@ -79,7 +79,9 @@ header.primary nav ul li a:link, header.primary nav a:visited{
 header.primary nav ul li a:hover, header.primary nav a:visited{
     background-color: rgba(78,167,245,.4);
 }
-
+#intro{
+    border:1px solid #c0c0c0;
+}
 
 
 
