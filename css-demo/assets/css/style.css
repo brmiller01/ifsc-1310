@@ -20,9 +20,13 @@ html {
 
 .container{
     width:80vw;
-    background:#3CBDDE;
     margin:60px auto;
     max-width:900px;
+}
+/*Responsive Images*/
+img{
+    max-width:100%;
+    height:auto;
 }
 /*Global Sytles*/
 body {
@@ -80,10 +84,43 @@ header.primary nav ul li a:hover, header.primary nav a:visited{
     background-color: rgba(78,167,245,.4);
 }
 #intro{
-    border:1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom:2em;
 }
-
-
+#intro h2{
+    color:#4EA7F5;
+}
+#intro p{
+    line-height:1.5;
+}
+section#content{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    border-bottom:1px solid #c0c0c0;
+    padding-bottom:3em;
+}
+#content article.post{
+    width:30%;
+    box-shadow:0 4px 8px rgba(0,0,0,.4);
+    padding:10px;
+    transition:.6s;
+    font-size:.8rem;
+}
+#content article.post:hover{
+    box-shadow:0 8px 16px rgba(0,0,0,.4);
+}
+#content article time,#content article figcaption,#content article footer{
+    font-size:.8em;
+    color:#c0c0c0;
+    text-transform:uppercase;
+}
+#content .post a:link, #content .post a:visited{
+    color:4EA7F5;
+}
+#content .post figure{
+    margin:0;
+}
 
 /*Media Queries come Last*/
 @media screen and (max-width:600px){
@@ -97,4 +134,5 @@ header.primary nav ul li a:hover, header.primary nav a:visited{
     header.primary nav ul li a{
         display:block;
     }
+  
 }
