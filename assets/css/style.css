@@ -36,3 +36,6 @@ a:link, a:visited{
   transition:.6s;
   text-shadow:1px 1px #000000;
 }
+a:hover{
+  box-shadow:0 8px 16px rgba(0,0,0,.4)
+}

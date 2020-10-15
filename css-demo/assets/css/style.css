@@ -121,6 +121,30 @@ section#content{
 #content .post figure{
     margin:0;
 }
+/*Attribute Selector*/
+aside[role="complementary"]{
+    background-color:#3C67DE;
+    padding:2.5em;
+}
+aside .container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+aside article.widget{
+    width:30vw;
+}
+aside article a:link,aside article a:visited{
+    color:white;
+    background-color:#4EA7F5;
+    text-decoration:none;
+    display:block;
+    margin-top:20px;
+    text-align:center;
+    border-radius:10px;
+    border:1px solid black;
+    transition:.3s;
+}
 
 /*Media Queries come Last*/
 @media screen and (max-width:600px){
