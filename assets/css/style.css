@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+h1{
+    background-color:#3CBDDE;
+    text-align:center;
+    border:20px #4EA7F5;
+    text-shadow:1px 1px #000000;
+}
+body nav{
+  background-color:#3C67DE;
+  font-size:1.2rem;
+  border-radius:40px;
+  border:1px #000000;
+}
+body nav ul li{
+  list-style-type:none;
+  padding:12.5px;
+}
+body {
+    font-family: 'Crimson Text', serif;
+    background-color:#3CBDDE;
+}
+a:link, a:visited{
+  color:white;
+  background-color: rgba(78,167,245,.8);
+  padding:8px 20px;
+  border-radius:20px;
+  border:2px #000000;
+  text-decoration:none;
+  transition:.6s;
+  text-shadow:1px 1px #000000;
+}
