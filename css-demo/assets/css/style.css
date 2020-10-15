@@ -164,6 +164,23 @@ footer#colophon{
     font-size:.9rem;
     text-transform:uppercase;
 }
+#additional-elements{
+    color:#4EA7F5;
+    bottom-border:1px dotted #c0c0c0;
+}
+#additional-elements a:link, #additional-elements a:visited{
+    color:#4EA7F5;
+}
+#additional-elements a:hover, #additional-elements a:active{
+    text-decoration:none;
+}
+#additional-elements p{
+    line-height:1.5;
+}
+#additional-elements h2{
+    border-left:5px solid #4EA7F5;
+    padding:3px 7px;
+}
 
 /*Media Queries come Last*/
 @media screen and (max-width:600px){
