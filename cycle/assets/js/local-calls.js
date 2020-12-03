@@ -6,6 +6,7 @@ $(document).ready(function() {
 $('.gallery').cycle({
 		fx: 'zoom', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
 		sync: false,
-		delay: -2000
-    
+		delay: -2000,
+		random:1,
+		pause:1
 });
