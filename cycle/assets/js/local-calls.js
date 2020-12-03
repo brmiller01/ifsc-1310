@@ -4,5 +4,8 @@ $(document).ready(function() {
 
 });
 $('.gallery').cycle({
-		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-	});
+		fx: 'zoom', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+		sync: false,
+		delay: -2000
+    
+});
