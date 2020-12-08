@@ -129,7 +129,7 @@ body{
   font-family: 'Arvo', serif;
 }
 section.primary{
-  background-color:rgba(28,97,140,.8);
+  background-color:#6A9AD9;
 }
 header.history::before{
   content: "";
@@ -166,6 +166,10 @@ article.homepage{
   border-style:solid;
   border-radius:25px;
   background-color:grey;
+  padding:10px;
+  width:33%;
+  height:900px;
+  margin:20px;
 }
 div.article{
   display:flex;
@@ -176,6 +180,7 @@ div.article{
 article.homepage img{
   width:350px;
   height:350px;
+  margin:10;
 }
 figcaption{
   color:white;
@@ -244,4 +249,13 @@ body.faqs img.img{
 }
 .gallery img {
 	margin: 15px;
+}
+figure.crew,figure.cargo,figure.hover{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+h1.FAQ{
+  color:white;
 }
